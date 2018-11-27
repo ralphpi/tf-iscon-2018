@@ -1,3 +1,3 @@
 variable "project-id" {
-  default = "is-con-quiz-project-7"
+  default = "is-con-quiz-project-8"
 }
