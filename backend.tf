@@ -1,7 +1,7 @@
 terraform {
   backend "gcs" {
-    bucket  = "terraform-is-con-2018"
-    prefix  = "terraform/state"
-    project = "is-con-terraform"
+    bucket  = "iscon-2018"
+    prefix  = "state"
+    project = "iscon-2018-223919"
   }
 }
