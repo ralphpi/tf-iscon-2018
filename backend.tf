@@ -1,7 +1,7 @@
 terraform {
   backend "gcs" {
-    bucket  = "iscon-2018"
+    bucket  = "{$Bucket}"
     prefix  = "state"
-    project = "iscon-2018-223919"
+    project = "${projcet}"
   }
 }
