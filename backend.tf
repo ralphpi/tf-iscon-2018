@@ -2,6 +2,6 @@ terraform {
   backend "gcs" {
     bucket  = "{$Bucket}"
     prefix  = "state"
-    project = "${projcet}"
+    project = "${project}"
   }
 }
